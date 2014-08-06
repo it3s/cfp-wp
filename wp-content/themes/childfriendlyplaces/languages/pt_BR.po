@@ -1,0 +1,171 @@
+#
+# Translators:
+# Luiz Armesto <luiz.armesto@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Mootiro Maps\n"
+"POT-Creation-Date: 2013-10-31 20:17-0300\n"
+"PO-Revision-Date: 2013-10-31 20:40-0300\n"
+"Last-Translator: Luiz Armesto <luiz.armesto@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
+"mootiro-maps/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: /home/luiz/projects/mootiro/maps/vm/child/wordpress/wp-"
+"content/themes/childfriendlyplaces\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:114
+msgid "Title"
+msgstr "Título"
+
+#: functions.php:121
+msgid "Slideshow"
+msgstr ""
+
+#: functions.php:131
+msgid "Add photos here"
+msgstr "Adicione fotos aqui"
+
+#: functions.php:136
+msgid "Add Photo"
+msgstr "Adicione fotos"
+
+#: functions.php:138
+msgid "Add"
+msgstr "Adicionar"
+
+#: header.php:45
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:46
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#: header.php:52
+msgid "About"
+msgstr "Sobre"
+
+#: header.php:53 content-frontpage.php:11
+msgid "Resource Kit"
+msgstr ""
+
+#: header.php:54
+msgid "Case Studies"
+msgstr ""
+
+#: header.php:55
+msgid "Maps"
+msgstr "Mapas"
+
+#: header.php:56
+msgid "Collaborate"
+msgstr "Colabore"
+
+#: content-page.php:13
+msgid "Facilitator's Guide"
+msgstr ""
+
+#: content-page.php:23
+msgid "What are Child Friendly Places?"
+msgstr ""
+
+#: content-page.php:26
+msgid "Community and School Mapping"
+msgstr ""
+
+#: content-page.php:29
+msgid "Assessing Your Community and School"
+msgstr ""
+
+#: content-page.php:32
+msgid "Tabulating and Displaying the Results"
+msgstr ""
+
+#: content-page.php:35
+msgid "Making an Improvement Plan"
+msgstr ""
+
+#: content-page.php:38
+msgid "Presenting and Discussing the Results with others"
+msgstr ""
+
+#: content-page.php:41
+msgid "Classroom Design"
+msgstr ""
+
+#: content-page.php:44
+msgid "Monitoring and Evaluating the Initiative"
+msgstr ""
+
+#: content-page.php:55
+#, php-format
+msgid "%s hours"
+msgstr "%s horas"
+
+#: content-page.php:58
+#, php-format
+msgid "%s participants"
+msgstr "%s participantes"
+
+#: content-page.php:61
+#, php-format
+msgid "group size: %s"
+msgstr "tamanho do grupo: %s"
+
+#: content-page.php:67 content-frontpage.php:16
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-page.php:71
+msgid "Evaluate this Activity"
+msgstr "Avalie esta atividade"
+
+#: content-page.php:106
+msgid "Supporting Tools"
+msgstr ""
+
+#: content-page.php:120
+msgid "Background Materials"
+msgstr ""
+
+#: content-page.php:135 content-frontpage.php:21
+msgid "Edit"
+msgstr "Editar"
+
+#: content-frontpage.php:11
+msgid "Overview"
+msgstr ""
+
+#: footer.php:20
+msgid "Initiative, Research & Coordination"
+msgstr ""
+
+#: footer.php:26
+msgid "Support"
+msgstr "Suporte"
+
+#: footer.php:31
+msgid "Webdesign & Development"
+msgstr "Webdesign & Desenvolvimento"
+
+#: footer.php:36
+msgid "License"
+msgstr "Licença"
+
+#: footer.php:38
+msgid ""
+"Except where otherwise noted, content on this site is licensed under a <a "
+"href=\"http://creativecommons.org/licenses/by-sa/3.0/deed.en_US\">Creative "
+"Commons Attribution-ShareAlike 3.0 Unported License</a>."
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""

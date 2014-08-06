@@ -1,0 +1,50 @@
+<?php
+
+// adds the settings to the Misc section
+function vp_edd_maps_add_settings($settings) {
+
+	// Setup some default option sets
+	$pages = get_pages();
+	$pages_options = array( '' => '' ); // Blank option
+	if( $pages ) {
+		foreach( $pages as $page ) {
+			$pages_options[ $page->ID ] = $page->post_title;
+		}
+	}
+	$eddmc_settings = array(
+		array(
+			'id' => 'vp_edd_maps_settings',
+			'name' => '<strong>' . __('Maps Integration Settings', 'vp_edd_maps') . '</strong>',
+			'desc' => __('Configure Maps Integration Settings', 'vp_edd_maps'),
+			'type' => 'header'
+		),
+		array(
+			'id'   => 'vp_edd_maps_redirect_url',
+			'name' => __('Maps Redirect URL', 'vp_edd_maps'),
+			'desc' => '',
+			'type' => 'text',
+		),
+		array(
+			'id'   => 'vp_edd_maps_count_url',
+			'name' => __('Maps Count URL', 'vp_edd_maps'),
+			'desc' => '',
+			'type' => 'text',
+		),
+		array(
+			'id'   => 'vp_edd_maps_list_url',
+			'name' => __('Maps List URL', 'vp_edd_maps'),
+			'desc' => '',
+			'type' => 'text',
+		),
+		array(
+			'id'   => 'vp_edd_maps_access_key',
+			'name' => __('Maps Access Key', 'vp_edd_maps'),
+			'desc' => __('Access key used to access maps internal api', 'vp_edd_maps'),
+			'type' => 'text',
+		),
+	);
+	
+	return array_merge($settings, $eddmc_settings);
+}
+
+add_filter('edd_settings_misc', 'vp_edd_maps_add_settings');
