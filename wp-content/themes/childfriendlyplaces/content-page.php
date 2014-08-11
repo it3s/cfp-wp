@@ -18,31 +18,35 @@ $post = $wp_query->get_queried_object();
 
 		<div class="entry-content activity-content <?php if ($post->post_name) { echo 'page-' . $post->post_name; } ?>">
 		<?php
-switch ($post->post_name) {
-case 'introduce':
-	$facilitator_button = __('What are Child Friendly Places?', 'childfriendlyplaces');
-	break;
-case 'explore':
-	$facilitator_button = __('Community and School Mapping', 'childfriendlyplaces');
-	break;
-case 'assess':
-	$facilitator_button = __('Assessing Your Community and School', 'childfriendlyplaces');
-	break;
-case 'analyze':
-	$facilitator_button = __('Tabulating and Displaying the Results', 'childfriendlyplaces');
-	break;
-case 'plan':
-	$facilitator_button = __('Making an Improvement Plan', 'childfriendlyplaces');
-	break;
-case 'share':
-	$facilitator_button = __('Presenting and Discussing the Results with others', 'childfriendlyplaces');
-	break;
-case 'act':
-	$facilitator_button = __('Classroom Design', 'childfriendlyplaces');
-	break;
-case 'review':
-	$facilitator_button = __('Monitoring and Evaluating the Initiative', 'childfriendlyplaces');
-	break;
+$facilitator_button = __( get_field( 'facilitators_guide_button' ) );
+if ($facilitator_button == '') {
+	switch ($post->post_name) {
+
+	case 'introduce':
+		$facilitator_button = __('What are Child Friendly Places?', 'childfriendlyplaces');
+		break;
+	case 'explore':
+		$facilitator_button = __('Community and School Mapping', 'childfriendlyplaces');
+		break;
+	case 'assess':
+		$facilitator_button = __('Assessing Your Community and School', 'childfriendlyplaces');
+		break;
+	case 'analyze':
+		$facilitator_button = __('Tabulating and Displaying the Results', 'childfriendlyplaces');
+		break;
+	case 'plan':
+		$facilitator_button = __('Making an Improvement Plan', 'childfriendlyplaces');
+		break;
+	case 'share':
+		$facilitator_button = __('Presenting and Discussing the Results with others', 'childfriendlyplaces');
+		break;
+	case 'act':
+		$facilitator_button = __('Classroom Design', 'childfriendlyplaces');
+		break;
+	case 'review':
+		$facilitator_button = __('Monitoring and Evaluating the Initiative', 'childfriendlyplaces');
+		break;
+	}
 }
 		?>
 			<?php if (get_field('facilitators_guide')): ?>
