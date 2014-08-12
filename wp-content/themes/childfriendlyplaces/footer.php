@@ -24,8 +24,8 @@
       <li><a href="<?php echo post_permalink(45); ?>"><?php echo get_the_title(45); ?></a></li>
       <li><a href="<?php echo post_permalink(47); ?>"><?php echo get_the_title(47); ?></a></li>
       <li><a href="<?php echo post_permalink(49); ?>"><?php echo get_the_title(49); ?></a></li>
-      <li><a href="<?php echo post_permalink(53); ?>"><?php echo get_the_title(53); ?></a></li>
       <li><a href="<?php echo post_permalink(51); ?>"><?php echo get_the_title(51); ?></a></li>
+      <li><a href="<?php echo post_permalink(53); ?>"><?php echo get_the_title(53); ?></a></li>
       <li><a href="<?php echo post_permalink(55); ?>"><?php echo get_the_title(55); ?></a></li>
       <li><a href="<?php echo post_permalink(57); ?>"><?php echo get_the_title(57); ?></a></li>
     </ul>
