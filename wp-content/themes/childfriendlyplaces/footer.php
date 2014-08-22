@@ -12,10 +12,11 @@
 ?>
 
 <?php wp_footer(); ?>
+</div>
+</div>
 
-<div id="footer">
-  <hr>
-
+<div id="secnavbar">
+<hr/>
 <div class="nav">
   <div>
     <h3 class="attenuate"><?php _e("Facilitator Guides", 'childfriendlyplaces'); ?></h3>
@@ -45,8 +46,9 @@
     </ul>
   </div>
 </div>
+</div>
 
-
+<div id="footer">
   <div>
     <h3 class="attenuate"><?php _e('Initiative, Research & Coordination', 'childfriendlyplaces'); ?></h3>
     <a href="http://cergnyc.org/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cerg.png" title="CERG"></a>
@@ -69,7 +71,7 @@
      <?php _e('Except where otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.', 'childfriendlyplaces' ); ?>
     </p>
   </div>
-
 </div>
+
 </body>
 </html>
