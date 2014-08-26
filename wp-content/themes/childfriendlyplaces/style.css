@@ -473,6 +473,11 @@ a.activity-facilitator-button {
 
 .activity-downloads ul {
     margin: 0 0 20px;
+    list-style: none;
+}
+
+.activity-downloads li {
+    margin: 0;
 }
 
 .activity-download {

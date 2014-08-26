@@ -34,15 +34,18 @@
   <div>
     <h3 class="attenuate"><?php _e("Background Materials", 'childfriendlyplaces'); ?></h3>
     <ul>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D79%26vp_edd_act%3Dshow_download">Resource Kit Overview</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D284%26vp_edd_act%3Dshow_download">Introduction to the Resource Kit</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D285%26vp_edd_act%3Dshow_download">Ways to Use the Resource Kit</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D278%26vp_edd_act%3Dshow_download">Adapting the Resource Kit to Your Context</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D81%26vp_edd_act%3Dshow_download">Planning Your Assessment Process</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D173%26vp_edd_act%3Dshow_download">Identifying Participants</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D172%26vp_edd_act%3Dshow_download">Working with Different Age Groups</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D171%26vp_edd_act%3Dshow_download">Ensuring the Participation of Everyone</a></li>
-      <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D739%26vp_edd_act%3Dshow_download">Creating a Children’s Rights Community Observatory</a></li>
+	  <li><a href="/resourcekit/"><?php _e("Resource Kit Overview"); ?></a></li>
+	  <li><a href="/resourcekit/introduction-to-the-resource-kit/"><?php _e("Introduction to the Resource Kit"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D285%26vp_edd_act%3Dshow_download"><?php _e("Ways to Use the Resource Kit"); ?></a></li>
+	  <!-- <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3DXXX%26vp_edd_act%3Dshow_download"><?php _e("Assessment Topics and Items"); ?></a></li> -->
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D278%26vp_edd_act%3Dshow_download"><?php _e("Adapting the Resource Kit to Your Context"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D81%26vp_edd_act%3Dshow_download"><?php _e("Planning Your Assessment Process"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D173%26vp_edd_act%3Dshow_download"><?php _e("Identifying Participants"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D172%26vp_edd_act%3Dshow_download"><?php _e("Working with Different Age Groups"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D171%26vp_edd_act%3Dshow_download"><?php _e("Ensuring the Participation of Everyone"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D170%26vp_edd_act%3Dshow_download"><?php _e("Understanding Children's Rights"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D739%26vp_edd_act%3Dshow_download"><?php _e("Creating a Children’s Rights Community Observatory"); ?></a></li>
+	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D130%26vp_edd_act%3Dshow_download"><?php _e("Developing and Sharing a Case Study"); ?></a></li>
     </ul>
   </div>
 </div>
