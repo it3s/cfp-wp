@@ -36,8 +36,8 @@
     <ul>
 	  <li><a href="/resourcekit/"><?php _e("Resource Kit Overview"); ?></a></li>
 	  <li><a href="/resourcekit/introduction-to-the-resource-kit/"><?php _e("Introduction to the Resource Kit"); ?></a></li>
-	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D285%26vp_edd_act%3Dshow_download"><?php _e("Ways to Use the Resource Kit"); ?></a></li>
-	  <!-- <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3DXXX%26vp_edd_act%3Dshow_download"><?php _e("Assessment Topics and Items"); ?></a></li> -->
+	  <li><a href="/resourcekit/ways-to-use-the-resource-kit/"><?php _e("Ways to Use the Resource Kit"); ?></a></li>
+	  <li><a href="/resourcekit/assessment-topics-and-items/"><?php _e("Assessment Topics and Items"); ?></a></li>
 	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D278%26vp_edd_act%3Dshow_download"><?php _e("Adapting the Resource Kit to Your Context"); ?></a></li>
 	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D81%26vp_edd_act%3Dshow_download"><?php _e("Planning Your Assessment Process"); ?></a></li>
 	  <li><a href="/tracking/redirect/?url=http%3A%2F%2Fchildfriendlyplaces.org%2Fresourcekit%3Fdid%3D173%26vp_edd_act%3Dshow_download"><?php _e("Identifying Participants"); ?></a></li>
@@ -76,5 +76,15 @@
   </div>
 </div>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55761288-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
